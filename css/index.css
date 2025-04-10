@@ -32,18 +32,3 @@ a:before {
     height: 10px;
     margin-right: 10px;
 }
-
-#buttonCV {
-    display: inline-block;
-    background-color: #F25A70;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.829);
-    padding: 18px 20px;
-    margin-right: 0;
-    transition: transform 100ms linear;
-}
-
-#buttonCV:hover {
-    background-color: #da3f56;
-    box-shadow: 0 5px #666;
-    transform: scale(1.08);
-}
