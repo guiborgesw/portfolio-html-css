@@ -1,10 +1,12 @@
 .button {
     display: inline-block;
     background-color: #F25A70;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.829);
+    color: #FFF;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.829);
     padding: 18px 20px;
     margin-right: 0;
     transition: transform 100ms linear;
+    text-decoration: none;
 }
 
 .button:hover {

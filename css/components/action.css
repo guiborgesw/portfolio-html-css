@@ -1,20 +1,4 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7C5E99;
-    border-bottom: 10px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-nav {
-    text-align: right;
-}
-
-a {
+.action {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -25,7 +9,7 @@ a {
     margin-right: 30px;
 }
 
-a:before {
+.action:before {
     content: "";
     background-color:#F25A70;
     width: 10px;
