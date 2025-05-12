@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: #F25A70;
     color: #FFF;
@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     background-color: #da3f56;
     box-shadow: 0 5px #666;
     transform: scale(1.08);
