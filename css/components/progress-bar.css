@@ -11,11 +11,11 @@
 }
   
 .progress-bar::-webkit-progress-value {
-    background-color: #7C5E99;
+    background-color: #3B4487;
 }
   
 /* Firefox */
 .progress-bar::-moz-progress-bar {
-    background-color: #7C5E99;
+    background-color: #3B4487;
 }
   

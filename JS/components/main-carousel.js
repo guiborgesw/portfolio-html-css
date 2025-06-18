@@ -16,11 +16,11 @@ const elements = document.querySelector('.elements');
 let pixels = 0;
 
 btnRight.addEventListener('click', function() {
-    pixels = pixels + 20;
+    pixels = pixels + 50;
     elements.style = `transform: translateX(${pixels}px)`
 });
 
 btnLeft.addEventListener('click', function() {
-    pixels = pixels - 20;
+    pixels = pixels - 50;
     elements.style = `transform: translateX(${pixels}px)`;
 });
