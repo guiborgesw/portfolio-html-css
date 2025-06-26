@@ -20,3 +20,7 @@
     box-shadow: 0 5px #666;
     transform: scale(1.08);
 }
+
+.main-button.-full {
+    width: 100%;
+}
