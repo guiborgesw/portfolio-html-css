@@ -39,11 +39,11 @@
         <img src="Assets/Img/favicon.ico" alt="Logo GB">
     
         <nav>
-        <a class="main-action" href="" lang="en">Skills</a>
-        <a class="main-action" href="">Sobre</a>
-        <a class="main-action" href="">Contatos</a>
-        <a class="main-action" href="">Projetos</a>
-        <a class="main-button -firstColor" href="" lang="en">Download CV</a>
+            <a class="main-action" href="#skills" lang="en">Skills</a>
+            <a class="main-action" href="#sobre">Sobre</a>
+            <a class="main-action" href="#contatos">Contatos</a>
+            <a class="main-action" href="#projetos">Projetos</a>
+            <a class="main-button -firstColor" href="" lang="en">Download CV</a>
         </nav>
     </header>
     <section class="main-banner">
@@ -58,12 +58,12 @@
             </div>
         </div>
     </section>
-    <section class="main-section">
+    <section id="skills" class="main-section">
         <h2 class="main-title -second">Skills</h2>
 
         <div class="wrapper-skill">
             <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_html5.png" alt="HTML">
+                <img src="Assets/Img/ico_html5.png" alt="HTML">
 
                 <div class="right">
                     <h3 class="title">HTML</h3>
@@ -71,15 +71,7 @@
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_nodejs.png" alt="NodeJS">
-
-                <div class="right">
-                    <h3 class="title">NodeJS</h3>
-                    <progress class="progress-bar" value="74" max="100">90%</progress>  
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_css3.png" alt="CSS">
+                <img src="Assets/Img/ico_css3.png" alt="CSS">
 
                 <div class="right">
                     <h3 class="title">CSS</h3>
@@ -87,15 +79,7 @@
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_tdd.png" alt="TDD">
-
-                <div class="right">
-                    <h3 class="title">TDD</h3>
-                    <progress class="progress-bar" value="72" max="100">90%</progress>  
-                </div>
-            </article>
-            <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_js.png" alt="JavaScript">
+                <img src="Assets/Img/ico_js.png" alt="JavaScript">
 
                 <div class="right">
                     <h3 class="title">JavaScript</h3>
@@ -103,7 +87,7 @@
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_restapi.png" alt="RestAPI">
+                <img src="Assets/Img/ico_restapi.png" alt="RestAPI">
 
                 <div class="right">
                     <h3 class="title">Rest API</h3>
@@ -111,7 +95,7 @@
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_react.png" alt="React">
+                <img src="Assets/Img/ico_react.png" alt="React">
 
                 <div class="right">
                     <h3 class="title">React</h3>
@@ -119,7 +103,7 @@
                 </div>
             </article>
             <article class="skill-tec">
-                <img class="icon" src="Assets/Img/ico_ux.png" alt="UX">
+                <img src="Assets/Img/ico_ux.png" alt="UX">
 
                 <div class="right">
                     <h3 class="title">UX</h3>
@@ -129,7 +113,7 @@
         </div>
     </section>
 
-    <section class="main-section -bgBlack -bdFirst">
+    <section id="projetos" class="main-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
 
         <div class="wrapper-card">
@@ -150,7 +134,7 @@
             </a>    
         </div>
     </section>
-    <section class="main-section -bgSecond -bdBlack">
+    <section id="sobre" class="main-section -bgSecond -bdBlack">
         <h2 class="main-title -second">Sobre</h2>
 
             <section class="main-carousel">
@@ -178,16 +162,23 @@
                                 <img class="main-img" src="./Assets/Img/GRSA-logo.png" alt="Logo GRSA Compass">
                             </div>
                         </figure>
+                        <figure class="node-card">
+                            <figcaption class="title">2025</figcaption>
+                            <div class="logo">
+                                <img class="main-img" src="./Assets/Img/logo-gps.png" alt="Logo GPS">
+                            </div>
+                        </figure>
                     </div>
                 </div>
                 <button class="button-arrow -right">
                     <span class="content">Voltar</span>
                 </button>
             </section>
-            <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, possimus ratione nulla corrupti aut facere voluptatibus sed sint neque laborum quisquam, expedita ut dolores laboriosam ullam quo iste, assumenda voluptas!</p>
+            <p class="main-description">Sou Guilherme Borges, desenvolvedor Front-end com experiência prática em HTML, CSS, JavaScript, React.js e REST APIs. Tenho conhecimento em UX/UI Design, criando interfaces intuitivas, acessíveis e com foco na experiência do usuário.
+            Já atuei em projetos reais aplicando lógica de programação, design responsivo e integração com APIs. Busco constantemente aprimorar minhas hard skills e soft skills, com foco em resolução de problemas, trabalho em equipe e entrega de resultados.</p>
     </section>
 
-        <form class="main-form">
+        <form id="contatos" class="main-form">
                 <legend class="main-title -second">Contatos</legend>
 
                 <label class="main-label" for="name">Nome</label>
@@ -199,7 +190,7 @@
                 <label class="main-label" for="message">Mensagem</label>
                 <textarea class="main-input -textarea" id="message"></textarea>
 
-                <button class="main-button -full" type="submit">Enviar</button>
+                <button class="main-button -full" type="submit"> > Enviar mensagem </button>
         </form>
 
     <footer class="main-footer">
